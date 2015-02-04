@@ -1,0 +1,25 @@
+{
+    "name": "kjamesy/utility",
+    "version": "0.1.0",
+    "description": "A few helpers for use with kjamesy/cms - intended for use in own projects",
+    "description": "",
+    "authors": [
+        {
+            "name": "kJamesy",
+            "email": "james@acw.uk.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.4.0",
+        "illuminate/support": "4.2.*"
+    },
+    "autoload": {
+        "classmap": [
+            "src/migrations"
+        ],
+        "psr-0": {
+            "Kjamesy\\Utility\\": "src/"
+        }
+    },
+    "minimum-stability": "stable"
+}
