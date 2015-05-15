@@ -1,6 +1,6 @@
 <?php namespace Kjamesy\Utility;
 
-use Kjamesy\Utility\Slug\Slug;
+use Kjamesy\Utility\Traits\Slug;
 
 class Utility
 {

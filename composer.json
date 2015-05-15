@@ -1,22 +1,20 @@
 {
-    "name": "kjamesy/utility",
-    "version": "0.1.0",
-    "description": "A few helpers for use with kjamesy/cms - intended for use in own projects",
-    "description": "",
-    "authors": [
-        {
-            "name": "kJamesy",
-            "email": "james@acw.uk.com"
-        }
-    ],
-    "require": {
-        "php": ">=5.4.0",
-        "illuminate/support": "4.2.*"
-    },
-    "autoload": {
-        "psr-0": {
-            "Kjamesy\\Utility\\": "src/"
-        }
-    },
-    "minimum-stability": "stable"
+  "name": "kjamesy/utility",
+  "version": "1.0.0",
+  "description": "A few helpers for use with kjamesy/cms - intended for use in own projects",
+  "authors": [
+    {
+      "name": "kJamesy",
+      "email": "james@acw.uk.com"
+    }
+  ],
+  "minimum-stability": "stable",
+  "require": {
+    "php": ">=5.4.0"
+  },
+  "autoload": {
+    "psr-0": {
+      "Kjamesy\\Utility\\": "src/"
+    }
+  }
 }

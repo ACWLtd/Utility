@@ -1,7 +1,6 @@
-<?php namespace Kjamesy\Utility\Slug;
+<?php namespace Kjamesy\Utility\Traits;
 
-trait Slug
-{
+trait Slug{
     /**
      * Make a unique slug based on existing ones
      * @param array $existingSlugs
